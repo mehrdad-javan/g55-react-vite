@@ -25,8 +25,8 @@ const Content = () => {
   return (
     <main className="container my-5">
       <div className="row">
-        <Sidebar />
         <MainContent />
+        <Sidebar />
       </div>
     </main>
   );
