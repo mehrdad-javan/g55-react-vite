@@ -24,10 +24,10 @@ const StudentTable = () => {
       <table className="table table-striped table-bordered">
         <thead>
           <tr>
-            <th scope="col">ID</th>
-            <th scope="col">Name</th>
-            <th scope="col">Subject</th>
-            <th scope="col">Grade</th>
+            <th >ID</th>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Grade</th>
           </tr>
         </thead>
         <tbody>
