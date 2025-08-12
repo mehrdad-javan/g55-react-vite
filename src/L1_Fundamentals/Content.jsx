@@ -9,7 +9,7 @@ const Sidebar = () => {
   );
 };
 
-const MainContent = () => {
+export const MainContent = () => {
   return (
     <div className="col-md-8">
       <h2>Main Content</h2>
