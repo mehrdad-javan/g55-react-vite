@@ -19,6 +19,9 @@ import PersonForm from "./L2_Fundamentals/PersonForm";
 import LifecycleDemo from "./L3_Hooks/LifecycleDemo";
 import FlightBooking from "./L3_Hooks/FlightBooking";
 import FlightBookingUseForm from "./L3_Hooks/FlightBookingUseForm";
+import ShoppingCart from "./L3_hooks/reducer/ShoppingCart";
+import AppCtx from "./L3_hooks/context/AppCtx";
+import PasswordStrengthChecker from "./L3_hooks/ref/PasswordStrengthChecker";
 
 const App = () => {
   // define js variables
@@ -60,7 +63,9 @@ const App = () => {
         <Pricing />
       </div>
       */}
-      <FlightBookingUseForm />
+      <PasswordStrengthChecker />
+      <AppCtx />
+      <ShoppingCart />
     </>
   );
 };
