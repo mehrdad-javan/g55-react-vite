@@ -23,6 +23,9 @@ import ShoppingCart from "./L3_hooks/reducer/ShoppingCart";
 import AppCtx from "./L3_hooks/context/AppCtx";
 import PasswordStrengthChecker from "./L3_hooks/ref/PasswordStrengthChecker";
 import InvitationApp from "./L4_Axios_Router/InvitationApp";
+import { BrowserRouter } from "react-router-dom";
+import AppRouters from "./L4_Axios_Router/AppRouters";
+import AppNavbar from "./L4_Axios_Router/AppNavbar";
 
 const App = () => {
   // define js variables
@@ -67,8 +70,13 @@ const App = () => {
       <PasswordStrengthChecker />
       <AppCtx />
       <ShoppingCart />
+     
+      <InvitationApp /> 
       */}
-      <InvitationApp />
+      <BrowserRouter>
+        <AppNavbar />
+        <AppRouters />
+      </BrowserRouter>
     </>
   );
 };
