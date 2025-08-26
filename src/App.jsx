@@ -22,6 +22,7 @@ import FlightBookingUseForm from "./L3_Hooks/FlightBookingUseForm";
 import ShoppingCart from "./L3_hooks/reducer/ShoppingCart";
 import AppCtx from "./L3_hooks/context/AppCtx";
 import PasswordStrengthChecker from "./L3_hooks/ref/PasswordStrengthChecker";
+import InvitationApp from "./L4_Axios_Router/InvitationApp";
 
 const App = () => {
   // define js variables
@@ -62,10 +63,12 @@ const App = () => {
         <h2>props ex 2</h2>
         <Pricing />
       </div>
-      */}
+      
       <PasswordStrengthChecker />
       <AppCtx />
       <ShoppingCart />
+      */}
+      <InvitationApp />
     </>
   );
 };
